@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* main - Entry point 
+* main - Entry point
 * Description: Variables and if_else statements
 * Return: Always 0 (Success)
 */
