@@ -14,6 +14,7 @@ for (i = 0; i<10; i++);
 {
 _putchar(word[i]);
 _putchar('\n');
-} 
+}
+_putchar(9);
 return (0);
 }
