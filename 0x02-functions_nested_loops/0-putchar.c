@@ -5,15 +5,17 @@
  * a program that prints _putchar, followed by a new line.
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-char word[9] = "_putchar";
-int i;
-for(i = 0; i<10; i++);
- _putchar(word[i]);
-_putchar('\n');
+char s[] = "_putchar";
+int i = 0;
+
+while (s[i] != '\0')
 {
-return (0);
+_putchar(s[i]);
+i++;
 }
+_putchar(10);
+
+return (0);
 }
