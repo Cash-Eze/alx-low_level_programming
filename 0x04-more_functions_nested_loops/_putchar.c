@@ -1,4 +1,4 @@
-#include "main.h"
+#include <unstdio.h>
 
 /**
 * main - prints the word _putchar
@@ -17,7 +17,6 @@ _putchar(s[i]);
 i++;
 }
 _putchar(10);
-
 return (0);
 }
 
