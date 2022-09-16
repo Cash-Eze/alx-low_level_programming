@@ -1,22 +1,12 @@
-#include <unstdio.h>
-
+#include <unistd.h>
 /**
-* main - prints the word _putchar
-*
-* Return: 0 on success execution.
-*/
+ * _putchar - writes charater c to the stdout
+ * @c: charater to print
+ * Return: On success 1
+ * on error, -1
+ */
 
-int main(void)
+int _putchar(char c)
 {
-char s[] = "_putchar";
-int i = 0;
-
-while (s[i] != '\0')
-{
-_putchar(s[i]);
-i++;
+return (write(1, &c, 1));
 }
-_putchar(10);
-return (0);
-}
-
