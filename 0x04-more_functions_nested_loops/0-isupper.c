@@ -8,7 +8,7 @@
 
 int _isupper(int c)
 {
-char c = 'A';	
+char c = 'A';
 if (c <= 65 && c <= 91)
 {
 return (1);
