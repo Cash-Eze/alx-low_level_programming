@@ -1,5 +1,5 @@
 #include <stdio.h>
-#incude "main.h"
+#include "main.h"
 /**
  * reset_to_98 - a function that takes an int and
  * and updates points to 98.
@@ -10,7 +10,5 @@
 
 void reset_to_98(int *n)
 {
-int n = 98;
-int *n = &n;
-*n = n;
+int *n = 98;
 }
