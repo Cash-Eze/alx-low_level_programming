@@ -3,14 +3,18 @@
 #include <string.h>
 
 /**
- * _strlen - a function to get the length of a string 
- * @*s: string to be passed 
- * Return: Always 0
+ * _strlen - a function to get the length of a string
+ * @*s: string to be passed
+ * Return: Nothing
  */
 
 int _strlen(char *s)
 {
-char b;
-*s = _strlen(b);
-
+int len = 0;
+while (s[len] != '\0')
+{
+len++;
 }
+return (len);
+}
+
