@@ -23,7 +23,7 @@ null_flag = 1;
 total = total * 10 + *s - '0';
 }
 
-else if (null_flag)	
+else if (null_flag)
 break;
 s++;
 }
