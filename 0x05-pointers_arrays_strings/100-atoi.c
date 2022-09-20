@@ -17,13 +17,13 @@ while (*s)
 if (*s == '-')
 sign *= -1;
 
-if (*s >= '0' && *s <= '9')	
+if (*s >= '0' && *s <= '9')
 {
 null_flag = 1;
 total = total * 10 + *s - '0';
 }
 
-else if (null_flag)		
+else if (null_flag)	
 break;
 s++;
 }
