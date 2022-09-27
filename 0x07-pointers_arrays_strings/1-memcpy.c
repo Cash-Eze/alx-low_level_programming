@@ -14,6 +14,7 @@ while (n--)
 {
 *dest = src;
 dest++;
+src++;
 }
 return (start);
 }
