@@ -6,14 +6,14 @@
  * Return: Nothing
  */
 
-void _puts_recursion()
+void _puts_recursion(char *s)
 {
-if (char *s)
+if (*s)
 {
 _putchar(*s);
 _put_recursion(s + 1);
 }
-else 
+else
 {
 _putchar("\n");
 }
