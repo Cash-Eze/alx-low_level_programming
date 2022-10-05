@@ -29,7 +29,7 @@ for (i = 0; str[i] != '\0' && k < count; i++)
 if (str[i] != ' ' || str[i] != '\t')
 {
 len = 0;
- = i;
+j = i;
 while ((str[j] != ' ' || str[j] != '\t') && str[j] != '\0')
 j++, len++;
 array[k] = malloc((len + 1) * sizeof(char));
