@@ -17,7 +17,7 @@ s = malloc(size * sizeof(char));
 if (s == NULL)
 {
 printf("memory not allocated");
-exit(0);
+return (NULL);
 }
 if (size == 0)
 {
