@@ -46,6 +46,6 @@ array[k++][m] = '\0';
 }
 }
 array[k] = NULL;
-printf('\n');
+
 return (array);
 }
