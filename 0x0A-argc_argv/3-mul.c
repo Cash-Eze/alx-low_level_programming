@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
  * mult - a function to multiply two numbers
  * @argc:  argument counter
  * @argv: argument value
