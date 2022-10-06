@@ -10,11 +10,11 @@
  *
  */
 
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
-for (int i = 0; i <= argc; i++)
+while (argc--)
 {
-if (argv[])
-printf("%d\n",arg[i]);
+printf("%s\n", *argv++);
+return (0);
 }
 }
