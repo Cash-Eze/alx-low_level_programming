@@ -1,5 +1,5 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef _DOG_H
+#define _DOG_H
 /**
  * struct dog - a function that initialize a variable of type struct dog.
  * @name: Dog's name
@@ -10,7 +10,7 @@
 
 struct dog
 {
-char name, owner;
+char *name, *owner;
 float age;
 };
 typedef struct dog dog_t;
