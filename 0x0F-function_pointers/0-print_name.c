@@ -4,6 +4,7 @@
 /**
  * print_name - a function to print a name
  * @name: name function that contains name
+ * @f: function arguments
  * Return: Nothing
  */
 
