@@ -25,4 +25,5 @@ if (func == NULL)
 printf("Error\n");
 exit(99);
 }
+}
 
