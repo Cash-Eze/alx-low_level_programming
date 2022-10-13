@@ -1,9 +1,10 @@
-#ifndef _MAIN.H
-#define _MAIN.H
+#include <stddef.h>
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(int );
 void print_name(char *name, void (*f)(char *));
 void array_iterator(int *array, size_t size, void (*action)(int));
 int int_index(int *array, int size, int (*cmp)(int));
 
-#endif /* _MAIN.H */
+#endif /*MAIN_H*/
