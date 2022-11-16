@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * pow_recursion - function to raise to power
+ * _pow_recursion - function to raise to power
  * @x: integer numbe to raise
  * @y: integer number raised to
  * Return: The power of x to y
