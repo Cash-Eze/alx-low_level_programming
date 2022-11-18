@@ -1,18 +1,10 @@
-#include "1-pi.h"
-#include "1-pi.h"
 #include <stdio.h>
-
 /**
- * main - check the code for alx School students.
- *
- * Return: Always 0.
+ *  * main - prints the name of file
+ *   * Return: Always 0 (Success)
  */
 int main(void)
 {
-float a;
-float r;
-r = 98;
-a = PI * r * r;
-printf("%.3f\n", a);
+printf("%s\n", __FILE__);
 return (0);
 }
