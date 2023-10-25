@@ -8,14 +8,12 @@
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 unsigned int flips = 0;
-unsigned long int xor = (n ^ m);
-unsigned long int max = 0x01;
 
-while (max <= xor)
+n = n ^ m;
+while (n)
 {
-if (max & xor)
-flips++;
-max <<= 1;
+n &= (n -1);
+++b;
 }
 return (flips);
 }
