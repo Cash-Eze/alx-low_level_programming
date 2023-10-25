@@ -1,28 +1,25 @@
 #include "main.h"
+/**
+ ** _print_binary - recursively print rightmost bit of non-zero number
+ ** in its binary representation.
+ ** @n: number to print
+ **/
+void _print_binary(unsigned long int n)
+{
+if (n == 0)
+return;
+_print_binary(n >> 1);
+_putchar((n & 1) + '0');
+}
 
 /**
-* print_binary - A function that prints a binary number without % or /
-* @n: The number to be printed
-* Return: Nothing
-**/
+ ** print_binary - print the binary representation of a number `n'
+ ** @n: number to represent
+ **/
 void print_binary(unsigned long int n)
 {
-unsigned int flag = 0, max = 32768; /* 1000 0000 0000 0000 */
-
 if (n == 0)
-{
 _putchar('0');
-return;
-}
-while (max)
-{
-if (flag == 1 && (n & max) == 0)
-_putchar('0');
-else if ((n & max) != 0)
-{
-_putchar('1');
-flag = 1;
-}
-max >>= 1;
-}
+else
+_print_binary(n);
 }
